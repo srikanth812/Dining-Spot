@@ -1,0 +1,103 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .menu-container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .menu-section {
+            margin-bottom: 40px;
+        }
+
+        h2 {
+            font-size: 28px;
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .menu-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            justify-items: center;
+        }
+
+        .menu-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .menu-item:hover {
+            transform: scale(1.05);
+        }
+
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .item-name {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .item-price {
+            font-size: 18px;
+            color: #888;
+            margin-top: 5px;
+        }
+
+        .add-to-cart {
+            margin-top: 10px;
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .add-to-cart:hover {
+            background-color: #218838;
+        }
+
+    </style>
+</head> 
+
+ <!-- Sweets Section -->
+    <div class="menu-section">
+        <h2>Sweets</h2>
+        <div class="menu-category">
+            <h3>Sweets</h3>
+            <div class="menu-grid">
+                <!-- Sweet Items -->
+                <div class="menu-item">
+                    <img src="https://i.pinimg.com/736x/a9/3d/77/a93d77d3e242262f2c919bf66aef5b39.jpg" alt="Gulab Jamun">
+                    <h4>Gulab Jamun</h4>
+                    <p class="price">$11.99</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <!-- Add more sweets here -->
+            </div>
+        </div>
+    </div>
